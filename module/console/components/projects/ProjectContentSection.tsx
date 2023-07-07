@@ -5,7 +5,7 @@ import {FaGlobeAsia} from "react-icons/fa";
 import Link from "next/link";
 
 const projects: ProjectObject[] = [
-    {id: 1, logo: HiGlobe, name: 'Personal Website', techStack: ['nextJS', 'TypeScript', 'nodeJS', 'TailwindCSS'], description: 'Creating my Website :)', link: ''},
+    {id: 1, logo: HiGlobe, name: 'Personal Website', techStack: ['nextJS', 'TypeScript', 'nodeJS', 'TailwindCSS'], description: 'Creating my Website :)', link: 'https://github.com/gautam17pranjal/personal-website'},
     {id: 2, logo: FaGamepad, name: 'Alice In ParkourLand', techStack: ['Game Development', 'Unity3D', 'C#', 'UI/UX'], description: 'A 3D level based survival game which includes elements of color change, wipeout, exploration, and shooting.', link: 'https://github.com/biyaniM/ALICE-IN-WONDERLAND-professional-nappers'},
     {id: 3, logo: FaSearchengin, name: 'SearchIt', techStack: ['Search Engine', 'PHP', 'Lucene', 'ApacheSolr', 'JavaScript', 'jQuery', 'Ajax'], description: 'Search Engine capable of delivering search results for a search query and algorithm used. (PageRank vs Lucene)', link: 'https://github.com/gautam17pranjal/SearchIt'},
     {id: 4, logo: FaLanguage, name: 'Key Idea Classification of Hindi Movie Annotations (KHAN)', techStack: ['NLP', 'Python', 'ML', 'Web-Crawling'], description: 'Develop a multi-label multi-class classifier used for Genre predictions of a Bollywood movie. Create a novel dataset', link: 'https://drive.google.com/file/d/1bCMuUg7Nn0paxTus7pW0JJNZbhlpDjS1/view?pli=1'},
