@@ -41,13 +41,13 @@ const BriefWorkSection = () => {
                     })
                 }
             </div>
-            <div className="mt-5 mb-3 pl-[30%] bg-zinc-800 hover:bg-zinc-700 hover:cursor-pointer py-1.5 rounded-lg">
+            <div className="mt-5 mb-3 bg-zinc-800 hover:bg-zinc-700 hover:cursor-pointer py-1.5 rounded-lg">
                 <Link
                     href={"https://drive.google.com/file/d/1mXoc0iCcOhF3NNTCqz6tnt5KKTZDOdgC/view"}
                     target="_blank"
                     className=""
                 >
-                    <span className="flex flex-row items-center text-white text-sm font-medium">
+                    <span className="flex flex-row justify-center items-center text-white text-sm font-medium">
                         <span className="pr-3">Resume</span>
                         <HiArrowDownTray className="h-5 w-5"/>
                     </span>
