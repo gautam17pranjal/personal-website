@@ -8,7 +8,7 @@ const HomeHighlightsSection = () => {
             <div className="col-span-1 md:col-span-2">
                 <Highlights />
             </div>
-            <div className="col-span-1 md:col-span-2 lg:col-span-1 md:px-4">
+            <div className="col-span-1 md:col-span-2 lg:col-span-1 ">
                 <Education />
                 <BriefWorkSection />
             </div>
