@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Website Link
 
-[gautam](https://gautampranjal.netlify.app/)
+[Gautam Pranjal](https://gautampranjal.netlify.app/)
 
 ## Getting Started
 
