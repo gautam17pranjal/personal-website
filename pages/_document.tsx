@@ -4,6 +4,7 @@ function Document () {
     return (
         <Html lang="en" className="h-max bg-slate-50">
             <Head>
+                <link rel="manifest" href="/manifest.json" />
                 <link rel="icon" href="/logo.ico" sizes="192x192" />
                 <script
                     dangerouslySetInnerHTML={{
