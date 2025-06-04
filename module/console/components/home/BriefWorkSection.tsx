@@ -1,7 +1,7 @@
-import {BriefcaseIcon} from "@heroicons/react/24/outline";
-import {WorkBrief} from "@/module/console/lib/model/home.model";
-import {HiArrowDownTray} from "react-icons/hi2";
+import { BriefcaseIcon } from "@heroicons/react/24/outline";
+import { HiArrowDownTray } from "react-icons/hi2";
 import Link from "next/link";
+import { WorkBrief } from "@/module/console/lib/model/home.model";
 
 const workData: WorkBrief[] = [
     {id: 100, name: "Union Credit Inc.", role: "Software Developer", start: "2023", end: "Present", imageLink: ""},
@@ -43,7 +43,7 @@ const BriefWorkSection = () => {
             </div>
             <div className="mt-5 mb-3 bg-zinc-800 hover:bg-zinc-700 hover:cursor-pointer py-1.5 rounded-lg">
                 <Link
-                    href={"https://drive.google.com/file/d/1mXoc0iCcOhF3NNTCqz6tnt5KKTZDOdgC/view"}
+                    href={"https://drive.google.com/file/d/14DEwrCY3Ee7jlBzdaqSUOb4u0RcE8epq/view?usp=sharing"}
                     target="_blank"
                     className=""
                 >
