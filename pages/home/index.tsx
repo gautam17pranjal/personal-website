@@ -7,9 +7,9 @@ import {WebsiteNavItemId} from "@/module/routing/lib/constants/navigation.items"
 
 const HomePage: PageWithLayout = () => {
     return (
-        <div className="">
-            <IntroductionSection />
-            <HomeHighlightsSection />
+        <div>
+            <IntroductionSection/>
+            <HomeHighlightsSection/>
         </div>
     )
 }
