@@ -1,4 +1,4 @@
-import {MenuBarItems} from "@/module/routing/lib/model/navigation";
+import {MenuBarItems, SocialMenuItems} from "@/module/routing/lib/model/navigation";
 import {
     AboutPagePath,
     ExperiencePagePath,
@@ -6,7 +6,6 @@ import {
     ProjectPagePath
 } from "@/module/routing/lib/constants/website.routes";
 import {
-    FacebookPath,
     GithubPath,
     InstagramPath,
     LinkedInPath,
@@ -14,7 +13,7 @@ import {
 } from "@/module/routing/lib/constants/social.routes";
 
 import {FaInstagram, FaLinkedin} from "react-icons/fa";
-import {FaGithub, FaSquareFacebook, FaYoutube} from "react-icons/fa6";
+import {FaGithub, FaYoutube} from "react-icons/fa6";
 
 export const enum WebsiteNavItemId {
     Home,
@@ -26,7 +25,6 @@ export const enum WebsiteNavItemId {
 export const enum SocialItemsId {
     LinkedIn,
     Instagram,
-    Facebook,
     Github,
     Youtube
 }
@@ -38,10 +36,9 @@ export const WebsiteMenuBarNavItems: MenuBarItems[] = [
     {id: WebsiteNavItemId.About, name: 'About', path: AboutPagePath}
 ]
 
-export const SocialNavItems: MenuBarItems[] = [
+export const SocialNavItems: SocialMenuItems[] = [
     {id: SocialItemsId.LinkedIn, name: 'LinkedIn', path: LinkedInPath, icon: FaLinkedin },
     {id: SocialItemsId.Instagram, name: 'Instagram', path: InstagramPath, icon: FaInstagram},
-    {id: SocialItemsId.Facebook, name: 'Facebook', path: FacebookPath, icon: FaSquareFacebook},
     {id: SocialItemsId.Github, name: 'GitHub', path: GithubPath, icon: FaGithub},
     {id: SocialItemsId.Youtube, name: 'Youtube', path: YoutubePath, icon: FaYoutube}
 ]

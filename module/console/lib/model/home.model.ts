@@ -1,11 +1,4 @@
-export interface WorkBrief {
-    id: number,
-    name: string,
-    role: string,
-    start: string,
-    end: string,
-    imageLink: string
-}
+import {StaticImageData} from "next/image";
 
 export interface Highlight {
     id: number,
@@ -20,5 +13,5 @@ export interface Education {
     type: string,
     start: string,
     end: string,
-    logo: string
+    logo?: StaticImageData
 }

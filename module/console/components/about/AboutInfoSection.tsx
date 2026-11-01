@@ -1,30 +1,30 @@
 const AboutInfoSection = () => {
     return (
         <div className="lg:order-first lg:row-span-2">
-            <h1 className="w-[80%] md:w-[80%] font-bold text-2xl md:text-3xl lg:text-5xl pb-4 text-white">
-                I'm Gautam Pranjal. I live in New Jersey.
+            <h1 className="w-[80%] md:w-[80%] font-bold text-2xl md:text-3xl lg:text-5xl pb-4 text-zinc-900 dark:text-white">
+                I&apos;m Gautam Pranjal. I live in New Jersey.
             </h1>
-            <div className="mt-6 pt-4 space-y-7 text-sm text-zinc-400 pr-10">
+            <div className="mt-6 pt-4 space-y-7 text-sm text-zinc-600 dark:text-zinc-400 pr-10">
                 <p>
-                    I consider myself to be all-around, constantly experimenting in numerous domains. Since I was in school,
-                    I've been involved in a variety of sports, traveling across India to compete in events.
-                    It fostered a fresh appreciation of travel in me. While taking long train trips,
-                    I find the scenic views of mountains, valleys, and plains to be fascinating.
+                    I like to think of myself as an all-rounder, always experimenting across different fields. Since my
+                    school days I&apos;ve played a variety of sports, and competing in events took me all over India. Those
+                    trips gave me a lasting love for travel. To this day, few things beat a long train ride with mountains,
+                    valleys, and open plains rolling past the window.
                 </p>
                 <p>
-                    I'm an engineer and a programmer, and I adore consistency, quality, order, and structure.
-                    I enjoy being a part of a team that fosters growth for everyone, including myself.
-                    It's true what they say: "Two heads are better than one!"
-                    My friends describe me as diligent, tenacious, focused, hard-working, disciplined, and other like things.
-                    Never, however, rely on what they say. Reach out to me to see for yourself.
+                    By profession I&apos;m an engineer and a programmer, and I value consistency, quality, order, and
+                    structure in everything I build. I do my best work on teams where everyone grows together, myself
+                    included. Two heads really are better than one. My friends would call me diligent, tenacious,
+                    focused, and disciplined, but don&apos;t just take their word for it. Reach out and see for yourself.
                 </p>
                 <p>
-                    I enjoy discussing about sports, TV shows, gaming, comics, and other topics with people from different cultures and backgrounds.
-                    I enjoy watching movies, dramas, and television shows.
-                    I've started exploring with cooking creating foods, which typically turn out well and sometimes :|
+                    Outside of work, I love talking about sports, TV shows, gaming, and comics with people from different
+                    cultures and backgrounds, and I&apos;m always up for a good movie or drama. Lately I&apos;ve been
+                    experimenting in the kitchen too. Most of my dishes turn out well. Some are still a work in progress.
                 </p>
                 <p>
-                    I am pleased with what I have accomplished so far and intend to bring discoveries and experiences to my life art.
+                    I&apos;m proud of what I&apos;ve accomplished so far, and I&apos;m excited to keep collecting new
+                    discoveries and experiences along the way.
                 </p>
             </div>
         </div>

@@ -2,28 +2,20 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 function Document () {
     return (
-        <Html lang="en" className="h-max bg-slate-50">
+        <Html lang="en" className="h-max bg-zinc-100 dark:bg-black">
             <Head>
                 <link rel="manifest" href="/manifest.json" />
                 <link rel="icon" href="/logo.ico" sizes="192x192" />
+                {/* apply the saved or system theme before first paint to avoid a flash of the wrong theme */}
                 <script
                     dangerouslySetInnerHTML={{
-                        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                                })(window,document,'script','dataLayer','GTM-5GPJQ4R');`,
+                        __html: `(function(){try{var t=localStorage.getItem('theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d);}catch(e){document.documentElement.classList.add('dark');}})();`,
                     }}
                 />
             </Head>
             <body className="h-full">
             <Main />
             <NextScript />
-            <noscript
-                dangerouslySetInnerHTML={{
-                    __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GPJQ4R" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-                }}
-            />
             </body>
         </Html>
     )
