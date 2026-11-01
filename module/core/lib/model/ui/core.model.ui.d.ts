@@ -1,6 +1,8 @@
+import {StaticImageData} from "next/image";
+
 export interface ProjectObject {
     id: number,
-    logo: any,
+    logo: StaticImageData,
     name: string,
     techStack: string[],
     description: string,
@@ -12,7 +14,7 @@ export interface ExperienceObject {
     companyName: string,
     companyLocation: string,
     companyLink: string,
-    companyLogo: any,
+    companyLogo: StaticImageData,
     companyDescription: string,
     designation: string,
     startDate: string,
