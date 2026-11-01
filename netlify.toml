@@ -1,0 +1,4 @@
+# Build settings (command, publish directory, Next.js plugin) stay in the Netlify UI.
+# Next.js 15 and sharp (used for image placeholders at build time) need Node 20.9+.
+[build.environment]
+  NODE_VERSION = "22"
